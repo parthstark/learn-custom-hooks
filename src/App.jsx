@@ -1,9 +1,14 @@
+import IntervalTimer from "./components/IntervalTimer"
 import OfflineOnlineListMaker from "./components/OfflineOnlineListMaker"
 
 function App() {
 
   return (
-    <OfflineOnlineListMaker />
+    <>
+      <OfflineOnlineListMaker />
+      <hr />
+      <IntervalTimer />
+    </>
   )
 }
 
