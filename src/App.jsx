@@ -1,3 +1,4 @@
+import Debounce from "./components/Debounce"
 import IntervalTimer from "./components/IntervalTimer"
 import OfflineOnlineListMaker from "./components/OfflineOnlineListMaker"
 
@@ -8,6 +9,8 @@ function App() {
       <OfflineOnlineListMaker />
       <hr />
       <IntervalTimer />
+      <hr />
+      <Debounce />
     </>
   )
 }
